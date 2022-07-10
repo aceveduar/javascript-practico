@@ -12,6 +12,7 @@ console.log(`El área del cuadrado es: ${areaCuadrado}cm^2`)
 
 console.groupEnd();
 
+
 // Código del triángulo
 console.group("Triángulos");
 
@@ -23,7 +24,7 @@ const alturaTriangulo = 5.5;
 console.log(`Los lados del triángulo miden: ${ladoTriangulo1}cm, ${ladoTriangulo2}cm, ${baseTriangulo}cm`);
 console.log(`La altura del triángulo mide: ${alturaTriangulo}cm`);
 
-const perimetroTriangulo = ladoTriangulo1+ladoTriangulo2+baseTriangulo;
+const perimetroTriangulo = ladoTriangulo1 + ladoTriangulo2 + baseTriangulo;
 console.log(`El perimetro del triángulo es: ${perimetroTriangulo}cm`);
 
 const areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
@@ -44,7 +45,7 @@ const diametroCirculo = radioCirculo * 2;
 console.log(`El diámetro del círculo es: ${diametroCirculo}cm`)
 
 // PI
-const  PI = Math.PI;
+const PI = Math.PI;
 console.log(`PI vale: ${PI}`)
 
 // Circunferencia
