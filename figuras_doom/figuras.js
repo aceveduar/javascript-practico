@@ -57,7 +57,7 @@ function perimetroCirculo(radio) {
     return (`El perimetro del círculo es: ${perimetro}cm`)
 }
 
-// console.log(perimetroCirculo(5));
+console.log(perimetroCirculo(5));
 
 // Área
 function areaCirculo(radioCirculo) {

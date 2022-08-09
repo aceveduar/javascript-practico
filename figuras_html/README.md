@@ -1,4 +1,4 @@
-# Porcentajes y Descuentos
+# Ejercicios de JavaScript
 
 ## Taller #1: Figuras geométricas
 
