@@ -7,16 +7,24 @@
     <title>Porcentajes y descuentos</title>
 </head>
 <body>
+
     <header>
         <h1>Porcentajes y descuentos</h1>
-        <p>Este es el segundo taller practico del curso de JavaScrip</p>
+        <p>Este es el segundo taller del curso práctico del curso de JavaScrip</p>
     </header>
+
     <section>
-        <h2>Calcula precio a pagar en tus productos con descuento</h2>
+        <h2>Calcula el precio a pagar en tus productos con descuento</h2>
         <form action="">
-            <label for=""></label>
-            <label for=""></label>
-            <button></button>
+            <label for="InputPrice">Escribe el precio de tu producto:</label>
+            <input id="InputPrice" type="number">
+
+            <label  for="InputDiscount">Escribe el descuento de tu producto:</label>
+            <input id="InputDiscount" type="number">
+
+            <button type="button" onclick="onClickButtonPriceDiscount()">Calcular precio con descuento</button>
+
+            <p id="ResultPrice"></p>
         </form>
     </section>
 
